@@ -13,9 +13,13 @@ function activate(context) {
     const editor = vscode.window.activeTextEditor;
     if (!editor) {
       return;
-    }
+		}
 
 		const document = editor.document;
+		if (document.languageId !== "php") {
+			return;
+		}
+
     const selection = editor.selection;
     const selectedVar = document.getText(selection);
 		const selectedLine = selection.active.line;
