@@ -1,7 +1,7 @@
 {
-	"name": "easy-error-logger",
-	"displayName": "Easy Error Logger",
-	"description": "Easily print a variable to your project's error log.",
+	"name": "easy-php-error-logger",
+	"displayName": "Easy PHP Error Logger",
+	"description": "Easily print_r a variable to your project's error log in PHP.",
 	"version": "0.0.1",
 	"engines": {
 		"vscode": "^1.33.0"
@@ -10,16 +10,11 @@
 		"Other"
 	],
 	"activationEvents": [
-		"onCommand:extension.helloWorld",
 		"onCommand:extension.errorLog"
 	],
 	"main": "./extension.js",
 	"contributes": {
 		"commands": [
-			{
-				"command": "extension.helloWorld",
-				"title": "Hello World"
-			},
 			{
 				"command": "extension.errorLog",
 				"title": "Error log"
