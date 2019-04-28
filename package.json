@@ -2,7 +2,7 @@
 	"name": "easy-php-error-logger",
 	"displayName": "Easy PHP Error Logger",
 	"description": "Easily print_r a variable to your project's error log in PHP.",
-	"version": "0.0.1",
+	"version": "1.0.0",
 	"engines": {
 		"vscode": "^1.33.0"
 	},
