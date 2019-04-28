@@ -3,6 +3,11 @@
 	"displayName": "Easy PHP Error Logger",
 	"description": "Easily print_r a variable to your project's error log in PHP.",
 	"version": "1.0.0",
+	"publisher": "dhide",
+	"repository": {
+		"type": "git",
+		"url": "https://github.com/dlh89/easy-php-error-logger"
+	},
 	"engines": {
 		"vscode": "^1.33.0"
 	},
